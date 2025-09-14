@@ -7,7 +7,7 @@ public class Q4 {
         JFrame frame=new JFrame();
         frame.setVisible(true);
         frame.setTitle("My First Frame");
-        frame.setSize(300,400);
+        frame.setSize(300,200);
         frame.setLocation(100,50);
 
     }
