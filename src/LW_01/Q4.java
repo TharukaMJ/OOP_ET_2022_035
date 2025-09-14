@@ -1,4 +1,4 @@
-package LW_01.Q1;
+package LW_01;
 
 import javax.swing.*;
 
