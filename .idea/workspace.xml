@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc9e258d-7517-4255-b2dd-c715c6d7a5ba" name="Changes" comment="COMMIT">
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Q1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Q2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Q3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Q4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LW_01/Q5.java" afterDir="false" />
-    </list>
+    <list default="true" id="dc9e258d-7517-4255-b2dd-c715c6d7a5ba" name="Changes" comment="COMMIT" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +51,8 @@
   "keyToString": {
     "Application.Q01.executor": "Run",
     "Application.Q1.executor": "Run",
+    "Application.Q3.executor": "Run",
+    "Application.Q7.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -115,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758650164274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="COMMIT">
+      <option name="closed" value="true" />
+      <created>1758651778331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758651778331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="COMMIT">
+      <option name="closed" value="true" />
+      <created>1758652275075</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758652275075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
