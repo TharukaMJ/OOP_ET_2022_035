@@ -1,4 +1,4 @@
-package LW_03;
+package LW_03.Q1;
 
 import java.util.Scanner;
 
