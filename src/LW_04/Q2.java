@@ -1,0 +1,52 @@
+package LW_04;
+
+import java.util.Scanner;
+
+public class Q2 {
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("0- Magenta");
+        System.out.println("1- cyan");
+        System.out.println("2- Red");
+        System.out.println("3- Blue");
+        System.out.println("4- Green");
+        System.out.println("select one color from the above list:");
+
+        int selection = scan.nextInt();
+
+        switch (selection) {
+            case 0:
+                System.out.println("you selected Magenta");
+                break;
+            case 1:
+                System.out.println("you selected cyan");
+                break;
+            case 2:
+                System.out.println("you selected Red");
+                break;
+            case 3:
+                System.out.println("you selected Blue");
+                break;
+            case 4:
+                System.out.println("you selected Green");
+                break;
+            default:
+                System.out.println("Invalid selection");
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+    }
+}
