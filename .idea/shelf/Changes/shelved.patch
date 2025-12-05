@@ -1,0 +1,66 @@
+Index: src/LW_02/Q1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package LW_02;\r\n\r\npublic class Q1 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/LW_02/Q1.java b/src/LW_02/Q1.java
+--- a/src/LW_02/Q1.java	(revision 02d7049d210d89f8dafc2bce65442dbdba8a3232)
++++ b/src/LW_02/Q1.java	(date 1758651181027)
+@@ -1,4 +1,12 @@
+ package LW_02;
+ 
+ public class Q1 {
++    public static void main(String[] args) {
++        for(int i = 1; i <=4; i++){
++            for(int j = 0; j < 10; j++){
++                System.out.print(i*10 + j + " ");
++            }
++            System.out.println(" ");
++        }
++    }
+ }
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"dc9e258d-7517-4255-b2dd-c715c6d7a5ba\" name=\"Changes\" comment=\"COMMIT\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/.gitignore\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/vcs.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/Q1.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/Q2.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/Q3.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/Q4.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/Q5.java\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/LW_01/circle.java\" beforeDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;TharukaMJ&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/TharukaMJ/OOP_ET_2022_035.git&quot;,\r\n    &quot;accountId&quot;: &quot;9454cc3f-dc3c-40d3-b9e1-dd7c55df8be5&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 5\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"336rN4tpW3XXY4aJg8ucl0FW6N4\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Application.Q01.executor&quot;: &quot;Run&quot;,\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;master&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/User/IdeaProjects/OOP_ET_2022_035/src/Main.java&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [\r\n      &quot;directory&quot;,\r\n      &quot;module&quot;,\r\n      &quot;repository&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"dc9e258d-7517-4255-b2dd-c715c6d7a5ba\" name=\"Changes\" comment=\"\" />\r\n      <created>1758648321042</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1758648321042</updated>\r\n      <workItem from=\"1758648321968\" duration=\"104000\" />\r\n      <workItem from=\"1758648552455\" duration=\"141000\" />\r\n      <workItem from=\"1758648779403\" duration=\"1390000\" />\r\n      <workItem from=\"1758650203275\" duration=\"73000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"COMMIT\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1758648958110</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1758648958110</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"COMMIT\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1758650164274</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1758650164274</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"COMMIT\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"COMMIT\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 02d7049d210d89f8dafc2bce65442dbdba8a3232)
++++ b/.idea/workspace.xml	(date 1758651155509)
+@@ -93,6 +93,7 @@
+       <workItem from="1758648552455" duration="141000" />
+       <workItem from="1758648779403" duration="1390000" />
+       <workItem from="1758650203275" duration="73000" />
++      <workItem from="1758650853612" duration="301000" />
+     </task>
+     <task id="LOCAL-00001" summary="COMMIT">
+       <option name="closed" value="true" />
+@@ -110,7 +111,23 @@
+       <option name="project" value="LOCAL" />
+       <updated>1758650164274</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="COMMIT">
++      <option name="closed" value="true" />
++      <created>1758651086826</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1758651086826</updated>
++    </task>
++    <task id="LOCAL-00004" summary="COMMIT">
++      <option name="closed" value="true" />
++      <created>1758651095799</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1758651095799</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
